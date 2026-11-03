@@ -53,7 +53,7 @@
   <circle cx="110" cy="20" r="8" fill="gold" stroke="ink"/>
   <path d="M12 36 L-38 128 M12 36 L62 128 M208 4 L158 96 M208 4 L258 96" stroke="ink" stroke-width="1.6"/>
   <use href="#car-side" transform="translate(-38 73) scale(.45)" stroke-width="5.3"/>
-  <use href="#car-side" transform="translate(158 41) scale(.45)" stroke-width="5.3"/>
+  <use href="#car-grey" transform="translate(158 41) scale(.45)" stroke-width="5.3"/>
   <path d="M-44 128 H68 C64 146 50 152 12 152 C-26 152 -40 146 -44 128Z" fill="mute" stroke="ink"/>
   <path d="M152 96 H264 C260 114 246 120 208 120 C170 120 156 114 152 96Z" fill="mute" stroke="ink"/>
 </g>
@@ -82,16 +82,16 @@
 </g>
 <!-- ОТТИСК ПЕЧАТИ «одобрено»: r=20 -->
 <g id="stamp-mark"><circle r="20" fill="none" stroke="acc-d" stroke-width="3.5"/><circle r="14" fill="none" stroke="acc-d" stroke-width="1.6"/><path d="M-7 0 L-2 6 L8 -6" fill="none" stroke="acc-d" stroke-width="4"/></g>
-<!-- ЭВАКУАТОР с машиной: 340×130, низ на y=134, кабина слева -->
+<!-- ЭВАКУАТОР с машиной: 340×130, низ на y=134, кабина слева; в кузове за машиной место (x 268…332) -->
 <clipPath id="cab-window"><path d="M20 22 H58 C64 22 68 26 69 32 L73 60 H20Z"/></clipPath>
 <g id="tow-truck">
   <ellipse cx="170" cy="134" rx="168" ry="6" fill="ink" opacity=".12"/>
-  <use href="#car-side" transform="translate(96 -26) scale(.95)" stroke-width="2.5"/>
+  <use href="#car-side" transform="translate(88 -4) scale(.78)" stroke-width="3.1"/>
   <rect x="8" y="102" width="326" height="10" rx="3" fill="dark" stroke="ink"/>
   <rect x="82" y="92" width="252" height="12" rx="3" fill="mute2" stroke="ink"/>
   <path d="M8 110 V30 C8 18 14 12 26 12 L62 12 C72 12 78 18 80 28 L86 110Z" fill="alt" stroke="ink"/>
   <path d="M20 22 H58 C64 22 68 26 69 32 L73 60 H20Z" fill="acc-l" stroke="ink"/>
-  <g clip-path="url(#cab-window)"><use href="#head" transform="translate(6 14) scale(.34)" stroke-width="7"/><use href="#face-happy" transform="translate(6 14) scale(.34)" stroke-width="7"/></g>
+  
   <path d="M20 22 H58 C64 22 68 26 69 32 L73 60 H20Z" fill="none" stroke="ink"/>
   <path d="M8 80 H20" stroke="gold" stroke-width="6"/><path d="M60 72 H70" stroke="ink" stroke-width="2.4"/>
   <circle cx="44" cy="118" r="17" fill="dark" stroke="ink"/><circle cx="252" cy="118" r="17" fill="dark" stroke="ink"/><circle cx="294" cy="118" r="17" fill="dark" stroke="ink"/>

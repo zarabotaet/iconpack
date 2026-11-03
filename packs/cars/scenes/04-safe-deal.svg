@@ -1,9 +1,9 @@
 <svg><!-- Надёжная сделка: лапа под ошейником, локоть на сейфе -->
-<bg windows="2" x="40"/>
+<bg windows="2" x="80"/>
 <clipPath id="below-paw"><rect y="239" width="480" height="74"/></clipPath>
-<part id="safe" x="96" y="213" s="1.15"/>
-<ellipse cx="290" cy="320" rx="62" ry="7" fill="ink" opacity=".12"/>
-<part id="cat-collar" x="367" y="133" s=".7" flip="1"/>
-<g clip-path="url(#below-paw)"><part id="safe" x="96" y="213" s="1.15"/></g>
-<path d="M120 170 Q120 180 130 180 Q120 180 120 190 Q120 180 110 180 Q120 180 120 170Z" fill="acc-d"/>
+<part id="safe" x="136" y="213" s="1.15"/>
+<ellipse cx="330" cy="320" rx="62" ry="7" fill="ink" opacity=".12"/>
+<part id="cat-collar" x="407" y="133" s=".7" flip="1"/>
+<g clip-path="url(#below-paw)"><part id="safe" x="136" y="213" s="1.15"/></g>
+<path d="M160 170 Q160 180 170 180 Q160 180 160 190 Q160 180 150 180 Q160 180 160 170Z" fill="acc-d"/>
 </svg>

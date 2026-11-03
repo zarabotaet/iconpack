@@ -1,5 +1,6 @@
-<svg><!-- Доставка: кот везёт машину на эвакуаторе -->
-<bg windows="4" x="60"/>
+<svg><!-- Доставка: кот едет в кузове эвакуатора рядом с машиной -->
+<bg windows="3" x="60"/>
 <part id="tow-truck" x="28" y="153" s="1.25"/>
-<path d="M440 250 H466 M450 272 H470" stroke="mute2" stroke-width="5"/>
+<ellipse cx="392" cy="268" rx="40" ry="4" fill="ink" opacity=".15"/>
+<part id="cat-wave" x="318" y="108" s=".6" face="happy"/>
 </svg>

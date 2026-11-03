@@ -1,6 +1,6 @@
 <svg><!-- Кэшбэк: роется в бананке и достаёт купюры -->
-<bg windows="3"/>
-<part id="car-side" x="16" y="152" s="1.38"/>
-<ellipse cx="392" cy="320" rx="62" ry="7" fill="ink" opacity=".12"/>
-<part id="cat-cash" x="476" y="133" s=".7" flip="1"/>
+<bg windows="3" x="208"/>
+<ellipse cx="104" cy="320" rx="62" ry="7" fill="ink" opacity=".12"/>
+<part id="cat-cash" x="20" y="133" s=".7"/>
+<part id="car-side" x="150" y="152" s="1.38"/>
 </svg>
