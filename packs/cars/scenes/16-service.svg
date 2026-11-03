@@ -1,0 +1,14 @@
+<svg><!-- Сервис: из-под машины торчат задние лапы (подушечками к нам) и хвост -->
+<bg windows="3" x="40"/>
+<!-- подкатник -->
+<rect x="236" y="311" width="120" height="6" rx="3" fill="dark" stroke="ink"/>
+<!-- хвост на полу -->
+<path d="M300 312 C340 318 400 318 418 306 C426 300 426 290 420 288 C414 286 410 292 414 298 C410 304 380 306 304 302Z" fill="fur" stroke="ink"/>
+<path d="M420.5 288 C414 286 410 292 414 298 C418 297 423 296 426 295 C426 291 424 288 420.5 288Z" fill="fur-d"/>
+<!-- лапы: ноги из-под машины, ступни подошвой к зрителю -->
+<limb d="M300 298 L352 290" w="18" fill="fur"/><limb d="M300 306 L344 308" w="18" fill="fur"/>
+<g transform="translate(358 288)"><ellipse rx="10" ry="14" fill="fur" stroke="ink"/><path d="M-4 5 C-4 1 4 1 4 5 C4 8 1 8 0 7.5 C-1 8 -4 8 -4 5Z" fill="nose"/><circle cx="-4.5" cy="-3" r="2" fill="nose"/><circle cx="0" cy="-6" r="2" fill="nose"/><circle cx="4.5" cy="-3" r="2" fill="nose"/></g>
+<g transform="translate(350 304)"><ellipse rx="10" ry="14" fill="fur" stroke="ink"/><path d="M-4 5 C-4 1 4 1 4 5 C4 8 1 8 0 7.5 C-1 8 -4 8 -4 5Z" fill="nose"/><circle cx="-4.5" cy="-3" r="2" fill="nose"/><circle cx="0" cy="-6" r="2" fill="nose"/><circle cx="4.5" cy="-3" r="2" fill="nose"/></g>
+<part id="car-side" x="16" y="152" s="1.38"/>
+<part id="service-badge" x="372" y="240"/>
+</svg>

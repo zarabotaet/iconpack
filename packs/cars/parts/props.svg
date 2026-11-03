@@ -63,4 +63,72 @@
 <!-- ЗВЕЗДА-ЗНАЧОК «лучший выбор»: круг r=14, центр 0,0 -->
 <g id="star-badge"><circle r="14" fill="gold" stroke="ink"/>
   <path d="M0 -8 L2.4 -2.6 L8.2 -2.2 L3.8 1.6 L5.2 7.4 L0 4.2 L-5.2 7.4 L-3.8 1.6 L-8.2 -2.2 L-2.4 -2.6Z" fill="paper" stroke="ink" stroke-width="1.4"/></g>
+
+<!-- СТРЕЛКИ ОБМЕНА: круг r=18, центр 0,0 -->
+<g id="swap-badge"><circle r="18" fill="acc" stroke="ink"/>
+  <path d="M-9 -3 A9 9 0 0 1 7 -6" fill="none" stroke="paper" stroke-width="3"/><path d="M4 -11 L9 -5 L2 -2Z" fill="paper"/>
+  <path d="M9 3 A9 9 0 0 1 -7 6" fill="none" stroke="paper" stroke-width="3"/><path d="M-4 11 L-9 5 L-2 2Z" fill="paper"/></g>
+<!-- ДОКУМЕНТ НА МОЛЬБЕРТЕ: 130×210, низ на y=210 -->
+<g id="doc-easel">
+  <ellipse cx="65" cy="210" rx="56" ry="5" fill="ink" opacity=".12"/>
+  <path d="M24 160 L8 208 M106 160 L122 208" stroke="ink" stroke-width="7"/><path d="M24 160 L8 208 M106 160 L122 208" stroke="dark" stroke-width="3"/>
+  <rect x="0" y="0" width="130" height="170" rx="8" fill="dark" stroke="ink"/>
+  <rect x="10" y="12" width="110" height="148" rx="4" fill="paper" stroke="ink" stroke-width="1.6"/>
+  <rect x="48" y="-6" width="34" height="14" rx="4" fill="gold" stroke="ink"/>
+  <rect x="20" y="22" width="90" height="12" rx="3" fill="acc"/>
+  <path d="M22 46 H100 M22 58 H90 M22 70 H96 M22 82 H70" stroke="mute2" stroke-width="3.5"/>
+  <path d="M70 140 C76 130 80 146 86 136 C90 130 94 142 104 134" fill="none" stroke="ink" stroke-width="1.8"/>
+  <path d="M68 148 H108" stroke="mute2" stroke-width="2"/>
+</g>
+<!-- ОТТИСК ПЕЧАТИ «одобрено»: r=20 -->
+<g id="stamp-mark"><circle r="20" fill="none" stroke="acc-d" stroke-width="3.5"/><circle r="14" fill="none" stroke="acc-d" stroke-width="1.6"/><path d="M-7 0 L-2 6 L8 -6" fill="none" stroke="acc-d" stroke-width="4"/></g>
+<!-- ЭВАКУАТОР с машиной: 340×130, низ на y=134, кабина слева -->
+<clipPath id="cab-window"><path d="M20 22 H58 C64 22 68 26 69 32 L73 60 H20Z"/></clipPath>
+<g id="tow-truck">
+  <ellipse cx="170" cy="134" rx="168" ry="6" fill="ink" opacity=".12"/>
+  <use href="#car-side" transform="translate(96 -26) scale(.95)" stroke-width="2.5"/>
+  <rect x="8" y="102" width="326" height="10" rx="3" fill="dark" stroke="ink"/>
+  <rect x="82" y="92" width="252" height="12" rx="3" fill="mute2" stroke="ink"/>
+  <path d="M8 110 V30 C8 18 14 12 26 12 L62 12 C72 12 78 18 80 28 L86 110Z" fill="alt" stroke="ink"/>
+  <path d="M20 22 H58 C64 22 68 26 69 32 L73 60 H20Z" fill="acc-l" stroke="ink"/>
+  <g clip-path="url(#cab-window)"><use href="#head" transform="translate(6 14) scale(.34)" stroke-width="7"/><use href="#face-happy" transform="translate(6 14) scale(.34)" stroke-width="7"/></g>
+  <path d="M20 22 H58 C64 22 68 26 69 32 L73 60 H20Z" fill="none" stroke="ink"/>
+  <path d="M8 80 H20" stroke="gold" stroke-width="6"/><path d="M60 72 H70" stroke="ink" stroke-width="2.4"/>
+  <circle cx="44" cy="118" r="17" fill="dark" stroke="ink"/><circle cx="252" cy="118" r="17" fill="dark" stroke="ink"/><circle cx="294" cy="118" r="17" fill="dark" stroke="ink"/>
+  <circle cx="44" cy="118" r="7" fill="mute" stroke="ink" stroke-width="1.8"/><circle cx="252" cy="118" r="7" fill="mute" stroke="ink" stroke-width="1.8"/><circle cx="294" cy="118" r="7" fill="mute" stroke="ink" stroke-width="1.8"/>
+</g>
+<!-- БАНТ на крышу: центр узла 0,0 -->
+<g id="bow-big">
+  <path d="M0 0 C-14 -26 -46 -24 -40 -4 C-36 8 -14 6 0 0 C14 6 36 8 40 -4 C46 -24 14 -26 0 0Z" fill="bow" stroke="ink"/>
+  <path d="M-2 2 L-16 22 M2 2 L16 22" stroke="ink" stroke-width="9"/><path d="M-2 2 L-16 22 M2 2 L16 22" stroke="bow" stroke-width="5"/>
+  <circle r="7" fill="bow" stroke="ink"/></g>
+<!-- КОЛЕСО: r=46, центр 0,0 -->
+<g id="tire"><circle r="46" fill="dark" stroke="ink"/>
+  <path d="M0 -46 V-38 M32.5 -32.5 L27 -27 M46 0 H38 M32.5 32.5 L27 27 M0 46 V38 M-32.5 32.5 L-27 27 M-46 0 H-38 M-32.5 -32.5 L-27 -27" stroke="ink" stroke-width="2.4"/>
+  <circle r="24" fill="mute" stroke="ink"/><circle r="7" fill="ink"/>
+  <circle cy="-14" r="2.4" fill="ink"/><circle cx="14" r="2.4" fill="ink"/><circle cy="14" r="2.4" fill="ink"/><circle cx="-14" r="2.4" fill="ink"/>
+  <path d="M-18 -30 Q-8 -36 6 -35" fill="none" stroke="paper" stroke-width="3" opacity=".4"/></g>
+<!-- СНЕЖИНКА и СОЛНЦЕ: значки r=16 -->
+<g id="snow-badge"><circle r="16" fill="acc-l" stroke="ink"/><path d="M0 -10 V10 M-8.7 -5 L8.7 5 M-8.7 5 L8.7 -5" stroke="paper" stroke-width="3"/></g>
+<g id="sun-badge"><circle r="16" fill="gold" stroke="ink"/><circle r="6" fill="paper"/><path d="M0 -12 V-9 M0 12 V9 M-12 0 H-9 M12 0 H9 M-8.5 -8.5 L-6.4 -6.4 M8.5 8.5 L6.4 6.4 M-8.5 8.5 L-6.4 6.4 M8.5 -8.5 L6.4 -6.4" stroke="paper" stroke-width="2.4"/></g>
+<!-- ВЕДРО: 56×52, низ на y=52 -->
+<g id="bucket"><ellipse cx="28" cy="52" rx="30" ry="4" fill="ink" opacity=".12"/>
+  <path d="M8 14 C8 -10 48 -10 48 14" fill="none" stroke="ink" stroke-width="2.4"/>
+  <path d="M2 12 H54 L48 50 H8Z" fill="acc-d" stroke="ink"/><path d="M4 22 H52" stroke="ink" stroke-width="1.6"/>
+  <circle cx="14" cy="8" r="7" fill="paper" stroke="ink" stroke-width="1.6"/><circle cx="26" cy="5" r="8" fill="paper" stroke="ink" stroke-width="1.6"/><circle cx="40" cy="8" r="7" fill="paper" stroke="ink" stroke-width="1.6"/></g>
+<!-- ПЕНА: пузыри -->
+<g id="foam"><circle cx="0" cy="0" r="9" fill="paper" stroke="ink" stroke-width="1.6"/><circle cx="12" cy="-4" r="7" fill="paper" stroke="ink" stroke-width="1.6"/><circle cx="22" cy="2" r="5" fill="paper" stroke="ink" stroke-width="1.6"/><circle cx="-10" cy="4" r="5" fill="paper" stroke="ink" stroke-width="1.6"/></g>
+<!-- ГАЕЧНЫЙ КЛЮЧ: 70×18, центр 0,0 -->
+<g id="wrench"><path d="M-26 -5 H22 V5 H-26Z" fill="mute" stroke="ink"/>
+  <path d="M-26 -11 A11 11 0 1 0 -26 11 L-30 4 H-36 V-4 H-30Z" fill="mute" stroke="ink"/>
+  <circle cx="26" r="9" fill="mute" stroke="ink"/><circle cx="26" r="4" fill="dark"/></g>
+<!-- ПУЗЫРИ ЧАТА -->
+<g id="chat-a"><path d="M0 8 Q0 0 8 0 H86 Q94 0 94 8 V38 Q94 46 86 46 H24 L10 58 L12 46 H8 Q0 46 0 38Z" fill="acc" stroke="ink"/><path d="M14 16 H78 M14 30 H56" stroke="paper" stroke-width="4"/></g>
+<g id="chat-b"><path d="M0 8 Q0 0 8 0 H70 Q78 0 78 8 V32 Q78 40 70 40 H66 L68 52 L54 40 H8 Q0 40 0 32Z" fill="mute" stroke="ink"/><circle cx="24" cy="20" r="4" fill="ink"/><circle cx="39" cy="20" r="4" fill="ink"/><circle cx="54" cy="20" r="4" fill="ink"/></g>
+<g id="clock-badge"><circle r="18" fill="paper" stroke="ink"/><path d="M0 -10 V0 L7 5" fill="none" stroke="ink" stroke-width="3"/><circle r="2" fill="ink"/>
+  <path d="M0 -15 V-13 M15 0 H13 M0 15 V13 M-15 0 H-13" stroke="ink" stroke-width="2"/></g>
+<g id="heart"><path d="M0 8 C-14 -2 -12 -14 -5 -14 C-2 -14 0 -11 0 -9 C0 -11 2 -14 5 -14 C12 -14 14 -2 0 8Z" fill="bow" stroke="ink" stroke-width="2"/></g>
+
+<!-- ЗНАЧОК «СЕРВИС»: круг r=16 с ключом -->
+<g id="service-badge"><circle r="16" fill="acc-d" stroke="ink"/><g transform="rotate(-45) scale(.34)" stroke-width="6"><use href="#wrench"/></g></g>
 </svg>

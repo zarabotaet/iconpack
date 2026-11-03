@@ -1,0 +1,7 @@
+<svg><!-- Отзывы: кот на крыше машины со звёздами -->
+<bg windows="2" x="40"/>
+<part id="car-side" x="85" y="152" s="1.38"/>
+<ellipse cx="286" cy="198" rx="40" ry="4" fill="ink" opacity=".12"/>
+<part id="cat-stars" x="202" y="9" s=".7" face="happy"/>
+<part id="heart" x="120" y="150" s="1.3"/><part id="heart" x="420" y="120"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg><!-- Страховка: зонт над машиной под дождём -->
+<path d="M40 40 L32 56 M96 30 L88 46 M150 50 L142 66 M60 110 L52 126 M120 100 L112 116 M30 170 L22 186 M100 160 L92 176 M200 20 L192 36 M440 20 L432 36" stroke="acc-l" stroke-width="4"/>
+<bg windows="0"/>
+<part id="car-side" x="50" y="152" s="1.38"/>
+<ellipse cx="376" cy="320" rx="62" ry="7" fill="ink" opacity=".12"/>
+<part id="cat-umbrella" x="460" y="133" s=".7" flip="1"/>
+</svg>

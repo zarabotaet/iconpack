@@ -1,0 +1,8 @@
+<svg><!-- Поддержка 24/7: кот в гарнитуре, пузыри чата -->
+<bg windows="2" x="300"/>
+<part id="chat-a" x="250" y="70"/><part id="chat-b" x="310" y="150"/>
+<part id="clock-badge" x="420" y="90"/>
+<ellipse cx="190" cy="320" rx="62" ry="7" fill="ink" opacity=".12"/>
+<part id="cat-wave" x="106" y="133" s=".7" face="happy"/>
+<part id="headset" x="106" y="133" s=".7"/>
+</svg>

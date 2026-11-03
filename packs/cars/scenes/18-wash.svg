@@ -1,0 +1,9 @@
+<svg><!-- Мойка: кот в пене с губкой -->
+<bg windows="2" x="14"/>
+<part id="car-side" x="16" y="152" s="1.38"/>
+<part id="foam" x="80" y="220"/><part id="foam" x="200" y="246"/><part id="foam" x="150" y="196" s=".8"/>
+<part id="bucket" x="408" y="268"/>
+<ellipse cx="370" cy="320" rx="62" ry="7" fill="ink" opacity=".12"/>
+<part id="cat-sponge" x="460" y="133" s=".7" flip="1" face="happy"/>
+<part id="foam" x="370" y="150" s=".9"/>
+</svg>

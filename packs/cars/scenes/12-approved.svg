@@ -1,0 +1,9 @@
+<svg><!-- Одобрено: ставит печать на документ -->
+<bg windows="2" x="300"/>
+<clipPath id="below-paw"><rect y="242" width="480" height="73"/></clipPath>
+<part id="doc-easel" x="268" y="110"/>
+<part id="stamp-mark" x="330" y="232"/>
+<ellipse cx="176" cy="320" rx="62" ry="7" fill="ink" opacity=".12"/>
+<part id="cat-stamp" x="92" y="133" s=".7" face="wink"/>
+<g clip-path="url(#below-paw)"><part id="doc-easel" x="268" y="110"/></g>
+</svg>
