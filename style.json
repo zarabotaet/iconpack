@@ -1,0 +1,10 @@
+{
+  "stroke": 2.4,
+  "radius": 6,
+  "header": 20,
+  "pad": 12,
+  "gap": 10,
+  "blob": { "points": 7, "jitter": 0.16 },
+  "sparkles": 5,
+  "canvas": { "w": 440, "h": 270, "cutY": 260 }
+}

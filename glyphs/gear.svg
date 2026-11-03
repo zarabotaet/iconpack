@@ -1,0 +1,5 @@
+<svg viewBox="0 0 48 48">
+  <circle cx="24" cy="24" r="14" fill="none" stroke="paper" stroke-width="7" stroke-dasharray="5.5 5.5"/>
+  <circle cx="24" cy="24" r="11" fill="paper"/>
+  <circle cx="24" cy="24" r="4.5" fill="acc"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg><!-- Ключи: кот вручает ключи с бантом -->
+<bg windows="3" x="40"/>
+<part id="car-side" x="-36" y="152" s="1.38"/>
+<ellipse cx="370" cy="320" rx="74" ry="8" fill="ink" opacity=".12"/>
+<part id="cat-keys" x="456" y="133" s=".7" flip="1"/>
+<path d="M270 150 Q270 160 280 160 Q270 160 270 170 Q270 160 260 160 Q270 160 270 150Z" fill="acc-d"/>
+</svg>

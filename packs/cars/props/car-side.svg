@@ -1,0 +1,18 @@
+<svg viewBox="0 0 240 124">
+<g id="car-side">
+  <ellipse cx="120" cy="121" rx="112" ry="6" fill="ink" opacity=".12"/>
+  <path d="M12 88 C12 74 20 68 34 66 L64 62 C78 42 96 32 122 32 L170 32 C186 32 196 40 204 56 L214 72 C220 74 224 80 224 88 L224 94 C224 99 220 102 214 102 L20 102 C15 102 12 98 12 94Z" fill="acc" stroke="ink"/>
+  <path d="M76 62 C88 47 102 41 122 41 L164 41 C176 41 184 47 190 58 L193 62Z" fill="acc-l" stroke="ink"/>
+  <path d="M110 41 L96 62 M118 41 L106 62" stroke="paper" stroke-width="3" opacity=".7"/>
+  <path d="M136 41 V62" stroke="ink" stroke-width="4"/>
+  <path d="M28 76 H212" stroke="paper" stroke-width="3" opacity=".35"/>
+  <path d="M136 62 V100" stroke="ink" stroke-width="1.4"/>
+  <path d="M116 70 H126 M152 70 H162" stroke="ink" stroke-width="2.6"/>
+  <path d="M13 80 C16 75 22 73 30 74 L30 81 L13 84Z" fill="gold" stroke="ink" stroke-width="1.6"/>
+  <path d="M219 70 L224 80 L224 84 L217 84Z" fill="nose" stroke="ink" stroke-width="1.6"/>
+  <path d="M32 102 A24 24 0 0 1 80 102Z M158 102 A24 24 0 0 1 206 102Z" fill="dark" stroke="ink"/>
+  <circle cx="56" cy="104" r="18" fill="dark" stroke="ink"/><circle cx="182" cy="104" r="18" fill="dark" stroke="ink"/>
+  <circle cx="56" cy="104" r="8" fill="mute" stroke="ink" stroke-width="1.8"/><circle cx="182" cy="104" r="8" fill="mute" stroke="ink" stroke-width="1.8"/>
+  <circle cx="56" cy="104" r="2.4" fill="ink"/><circle cx="182" cy="104" r="2.4" fill="ink"/>
+</g>
+</svg>

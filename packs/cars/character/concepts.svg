@@ -1,0 +1,54 @@
+<svg viewBox="0 0 660 260">
+<!-- A: «Буханка» — сидит, тело шире головы -->
+<g transform="translate(10 10)">
+  <limb d="M150 222 C190 222 196 180 176 162" w="16" fill="fur"/>
+  <path d="M38 228 C26 180 46 128 100 126 C154 128 174 180 162 228Z" fill="fur" stroke="ink"/>
+  <path d="M74 228 C70 196 82 168 100 168 C118 168 130 196 126 228Z" fill="cream"/>
+  <path d="M44 186 Q54 182 58 190 M42 204 Q52 200 56 208 M156 186 Q146 182 142 190 M158 204 Q148 200 144 208" fill="none" stroke="fur-d" stroke-width="3"/>
+  <ellipse cx="80" cy="228" rx="15" ry="9" fill="fur" stroke="ink"/><ellipse cx="120" cy="228" rx="15" ry="9" fill="fur" stroke="ink"/>
+  <path d="M56 70 L54 30 L86 50Z M144 70 L146 30 L114 50Z" fill="fur" stroke="ink"/>
+  <path d="M61 58 L60 40 L74 50Z M139 58 L140 40 L126 50Z" fill="cream"/>
+  <path d="M48 92 C46 60 70 44 100 44 C130 44 154 60 152 92 C150 120 128 134 100 134 C72 134 50 120 48 92Z" fill="fur" stroke="ink"/>
+  <path d="M100 134 C82 134 74 122 80 112 Q90 104 100 110 Q110 104 120 112 C126 122 118 134 100 134Z" fill="cream"/>
+  <path d="M92 50 L94 62 M100 48 V64 M108 50 L106 62" stroke="fur-d" stroke-width="3"/>
+  <path d="M72 88 H88 A8 8 0 0 1 72 88Z M112 88 H128 A8 8 0 0 1 112 88Z" fill="ink" stroke="ink" stroke-width="1.5"/>
+  <path d="M96 106 H104 L100 110Z" fill="nose" stroke="ink" stroke-width="1.5"/>
+  <path d="M93 116 Q97 120 100 114 Q103 120 107 116" fill="none" stroke="ink" stroke-width="1.8"/>
+  <path d="M56 104 L38 100 M56 112 L40 116 M144 104 L162 100 M144 112 L160 116" stroke="ink" stroke-width="1.5"/>
+</g>
+<!-- B: «Груша» — стоит, лапы свободны для предметов -->
+<g transform="translate(230 10)">
+  <limb d="M156 208 C196 208 198 164 178 150" w="15" fill="fur"/>
+  <limb d="M54 134 L42 168" w="17" fill="fur"/>
+  <path d="M100 104 C58 104 38 152 38 190 C38 218 66 232 100 232 C134 232 162 218 162 190 C162 152 142 104 100 104Z" fill="fur" stroke="ink"/>
+  <path d="M100 140 C76 140 66 170 68 198 C70 218 86 226 100 226 C114 226 130 218 132 198 C134 170 124 140 100 140Z" fill="cream"/>
+  <path d="M44 176 Q52 172 56 180 M42 196 Q50 192 54 200 M156 176 Q148 172 144 180 M158 196 Q150 192 146 200" fill="none" stroke="fur-d" stroke-width="3"/>
+  <ellipse cx="78" cy="232" rx="16" ry="8" fill="fur" stroke="ink"/><ellipse cx="122" cy="232" rx="16" ry="8" fill="fur" stroke="ink"/>
+  <limb d="M146 134 L170 102" w="17" fill="fur"/>
+  <path d="M60 58 L58 20 L88 40Z M140 58 L142 20 L112 40Z" fill="fur" stroke="ink"/>
+  <path d="M65 47 L64 30 L77 40Z M135 47 L136 30 L123 40Z" fill="cream"/>
+  <path d="M52 80 C50 50 72 34 100 34 C128 34 150 50 148 80 C146 106 126 118 100 118 C74 118 54 106 52 80Z" fill="fur" stroke="ink"/>
+  <path d="M100 118 C84 118 76 108 81 99 Q90 92 100 97 Q110 92 119 99 C124 108 116 118 100 118Z" fill="cream"/>
+  <path d="M92 40 L94 52 M100 38 V54 M108 40 L106 52" stroke="fur-d" stroke-width="3"/>
+  <path d="M74 76 H89 A7.5 7.5 0 0 1 74 76Z" fill="ink" stroke="ink" stroke-width="1.5"/>
+  <path d="M112 74 Q119 70 126 74" fill="none" stroke="ink" stroke-width="2.6"/>
+  <path d="M96 94 H104 L100 98Z" fill="nose" stroke="ink" stroke-width="1.5"/>
+  <path d="M92 103 Q97 108 100 102 Q103 108 110 102" fill="none" stroke="ink" stroke-width="1.8"/>
+  <path d="M58 90 L40 86 M58 98 L42 102 M142 90 L160 86 M142 98 L158 102" stroke="ink" stroke-width="1.5"/>
+</g>
+<!-- C: «Шар» — голова и тело одно целое -->
+<g transform="translate(450 10)">
+  <limb d="M150 214 C186 214 194 180 176 164" w="15" fill="fur"/>
+  <path d="M58 92 L54 48 L88 66Z M142 92 L146 48 L112 66Z" fill="fur" stroke="ink"/>
+  <path d="M63 80 L61 60 L76 69Z M137 80 L139 60 L124 69Z" fill="cream"/>
+  <circle cx="100" cy="150" r="80" fill="fur" stroke="ink"/>
+  <path d="M100 230 C70 230 58 200 62 178 Q80 166 100 172 Q120 166 138 178 C142 200 130 230 100 230Z" fill="cream"/>
+  <path d="M92 74 L94 88 M100 72 V90 M108 74 L106 88" stroke="fur-d" stroke-width="3"/>
+  <path d="M22 150 Q32 146 36 154 M24 172 Q34 168 38 176 M178 150 Q168 146 164 154 M176 172 Q166 168 162 176" fill="none" stroke="fur-d" stroke-width="3"/>
+  <path d="M70 128 H86 A8 8 0 0 1 70 128Z M114 128 H130 A8 8 0 0 1 114 128Z" fill="ink" stroke="ink" stroke-width="1.5"/>
+  <path d="M96 144 H104 L100 148Z" fill="nose" stroke="ink" stroke-width="1.5"/>
+  <path d="M92 154 Q97 159 100 152 Q103 159 108 154" fill="none" stroke="ink" stroke-width="1.8"/>
+  <path d="M52 142 L34 138 M52 150 L36 154 M148 142 L166 138 M148 150 L164 154" stroke="ink" stroke-width="1.5"/>
+  <limb d="M70 200 L64 218" w="16" fill="fur"/><limb d="M130 200 L136 218" w="16" fill="fur"/>
+</g>
+</svg>

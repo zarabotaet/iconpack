@@ -1,0 +1,9 @@
+<svg><!-- Тест-драйв: кот за рулём кабриолета, машет -->
+<bg windows="2" x="14"/>
+<clipPath id="above-door"><rect width="480" height="238"/></clipPath>
+<part id="cabrio-back" x="16" y="152" s="1.38"/>
+<g clip-path="url(#above-door)"><part id="cat-drive" x="140" y="158" s=".62"/></g>
+<part id="cabrio" x="16" y="152" s="1.38"/>
+<path d="M346 236 H420 M360 258 H452 M340 280 H400" stroke="mute2" stroke-width="5"/>
+<path d="M430 236 H446 M412 280 H424" stroke="mute2" stroke-width="5"/>
+</svg>

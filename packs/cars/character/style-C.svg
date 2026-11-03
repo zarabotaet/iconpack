@@ -1,0 +1,98 @@
+<svg viewBox="0 0 480 360"><defs>
+  <!-- ГОЛОВА без лица: уши, форма с бакенбардами, полоски, мордочка, нос, усы -->
+  <g id="head">
+    <path d="M66 64 C62 46 62 30 68 16 C82 20 96 28 106 38Z M174 64 C178 46 178 30 172 16 C158 20 144 28 134 38Z" fill="fur" stroke="ink"/>
+    <path d="M73 54 C71 42 72 32 75 25 C84 29 91 34 97 40Z M167 54 C169 42 168 32 165 25 C156 29 149 34 143 40Z" fill="nose" opacity=".55"/>
+    <path d="M120 30 C150 30 170 44 175 68 C177 76 182 82 188 86 L180 90 L188 98 L176 100 C168 116 146 126 120 126 C94 126 72 116 64 100 L52 98 L60 90 L52 86 C58 82 63 76 65 68 C70 44 90 30 120 30Z" fill="fur" stroke="ink"/>
+    <path d="M117 31 L120 52 L123 31Z M103 34 C106 41 109 46 113 49 C112 42 111 37 110 32Z M137 34 C134 41 131 46 127 49 C128 42 129 37 130 32Z M66 70 C72 72 77 74 80 77 C75 78 70 77 66 75Z M64 80 C70 81 75 83 78 86 C73 87 68 86 64 84Z M174 70 C168 72 163 74 160 77 C165 78 170 77 174 75Z M176 80 C170 81 165 83 162 86 C167 87 172 86 176 84Z" fill="fur-d"/>
+    <ellipse cx="84" cy="96" rx="7" ry="4" fill="nose" opacity=".35"/><ellipse cx="156" cy="96" rx="7" ry="4" fill="nose" opacity=".35"/>
+    <path d="M120 92 C112 86 96 88 94 99 C93 109 104 114 112 111 C115 117 125 117 128 111 C136 114 147 109 146 99 C144 88 128 86 120 92Z" fill="cream"/>
+    <path d="M96 100 C84 96 70 95 58 97 M96 104 C84 103 72 105 62 109 M144 100 C156 96 170 95 182 97 M144 104 C156 103 168 105 178 109" fill="none" stroke="ink" stroke-width="1.4"/>
+    <path d="M114 93.5 C114 90.5 126 90.5 126 93.5 C126 96.5 122 99.5 120 99.5 C118 99.5 114 96.5 114 93.5Z" fill="nose" stroke="ink" stroke-width="1.6"/>
+  </g>
+  <!-- БРЕЛКИ: центр в 0,0, колечко сверху; ставятся translate(120 152) -->
+  <g id="ring"><circle cx="0" cy="-11" r="3" fill="none" stroke="ink" stroke-width="1.8"/></g>
+  <g id="charm-coin"><use href="#ring"/><circle r="9" fill="gold" stroke="ink"/><path d="M-4 -3.5 Q-2 -6 2 -6" fill="none" stroke="paper" stroke-width="1.6"/></g>
+  <g id="charm-paw"><use href="#ring"/><circle r="9.5" fill="gold" stroke="ink"/>
+    <path d="M-3.6 3.6 C-3.6 0.6 3.6 0.6 3.6 3.6 C3.6 5.6 1.5 5.6 0 5 C-1.5 5.6 -3.6 5.6 -3.6 3.6Z" fill="fur-d"/>
+    <circle cx="-4.6" cy="-1.4" r="1.6" fill="fur-d"/><circle cx="-1.6" cy="-4.4" r="1.6" fill="fur-d"/><circle cx="1.6" cy="-4.4" r="1.6" fill="fur-d"/><circle cx="4.6" cy="-1.4" r="1.6" fill="fur-d"/></g>
+  <g id="charm-key"><use href="#ring"/><rect x="-7" y="-8" width="14" height="19" rx="5" fill="dark" stroke="ink"/>
+    <circle cx="0" cy="-2" r="2.2" fill="gold"/><circle cx="0" cy="4.5" r="2.2" fill="paper" opacity=".8"/></g>
+  <g id="charm-wheel"><use href="#ring"/><circle r="9.5" fill="gold" stroke="ink"/><circle r="5" cy="1" fill="dark" stroke="ink" stroke-width="1.5"/>
+    <path d="M-9 1 H-5 M5 1 H9 M0 6 V9.5" stroke="ink" stroke-width="2.4"/><circle cy="1" r="2" fill="gold"/></g>
+  <g id="charm-star"><use href="#ring"/><circle r="9.5" fill="mute" stroke="ink"/>
+    <path d="M0 -6 L1.8 -1.9 L6.2 -1.6 L2.8 1.3 L3.9 5.6 L0 3.2 L-3.9 5.6 L-2.8 1.3 L-6.2 -1.6 L-1.8 -1.9Z" fill="gold" stroke="ink" stroke-width="1.2"/></g>
+  <g id="charm-wings"><use href="#ring"/>
+    <path d="M-5 -2 C-10 -6 -15 -5 -18 -3 C-15 -2 -13 0 -11 0 C-13 1 -14 2 -15 3 C-11 4 -8 3 -5 2Z M5 -2 C10 -6 15 -5 18 -3 C15 -2 13 0 11 0 C13 1 14 2 15 3 C11 4 8 3 5 2Z" fill="gold" stroke="ink" stroke-width="1.4"/>
+    <circle r="6.5" fill="acc" stroke="ink"/><circle r="2.4" fill="gold"/></g>
+  <g id="charm-shield"><use href="#ring"/><path d="M-8 -8 H8 V0 C8 6 3 9 0 11 C-3 9 -8 6 -8 0Z" fill="gold" stroke="ink"/>
+    <path d="M-4.5 -1 L0 3 L4.5 -1" fill="none" stroke="acc-d" stroke-width="2.6"/></g>
+  <!-- глаза -->
+  <g id="eyes-open">
+    <path d="M84 79 C88 69 108 69 112 79 C108 88 88 88 84 79Z M156 79 C152 69 132 69 128 79 C132 88 152 88 156 79Z" fill="paper" stroke="ink" stroke-width="2"/>
+    <circle cx="99" cy="79.5" r="6.8" fill="eye"/><circle cx="141" cy="79.5" r="6.8" fill="eye"/>
+    <ellipse cx="99" cy="79.5" rx="2.2" ry="5" fill="ink"/><ellipse cx="141" cy="79.5" rx="2.2" ry="5" fill="ink"/>
+    <circle cx="101.5" cy="77" r="1.7" fill="paper"/><circle cx="143.5" cy="77" r="1.7" fill="paper"/>
+  </g>
+  <g id="lids">
+    <path d="M83 79 C88 67 108 67 113 79 C106 75.5 90 75.5 83 79Z M157 79 C152 67 132 67 127 79 C134 75.5 150 75.5 157 79Z" fill="fur"/>
+    <path d="M83 79 C90 75.5 106 75.5 113 79 M127 79 C134 75.5 150 75.5 157 79" fill="none" stroke="ink" stroke-width="2.8"/>
+  </g>
+  <path id="mouth-smile" d="M120 99.5 V103 M111 103 C114 107 118 107 120 103 C122 107 126 107 129 103" fill="none" stroke="ink" stroke-width="1.8"/>
+  <!-- ТЕЛО -->
+  <clipPath id="bodyclip"><path d="M120 118 C88 118 64 140 56 168 C46 196 46 222 58 240 C70 256 96 262 120 262 C144 262 170 256 182 240 C194 222 194 196 184 168 C176 140 152 118 120 118Z"/></clipPath>
+  <g id="body">
+    <g transform="translate(10 4)">
+    <path d="M168 230 C196 236 214 222 214 198 C214 182 206 172 208 158 C209 150 216 146 222 150 C228 154 228 164 226 174 C222 192 228 208 224 224 C218 248 190 256 162 248Z" fill="fur" stroke="ink"/>
+    <path d="M208.5 160 C209 150 216 146 222 150 C228 154 228 164 226.5 172 C220 172 212 168 208.5 160Z" fill="fur-d"/>
+    </g>
+    <path d="M120 118 C88 118 64 140 56 168 C46 196 46 222 58 240 C70 256 96 262 120 262 C144 262 170 256 182 240 C194 222 194 196 184 168 C176 140 152 118 120 118Z" fill="fur"/>
+    <g clip-path="url(#bodyclip)">
+      <path d="M70 134 C94 160 146 160 170 134 C156 123 138 119 120 119 C102 119 84 123 70 134Z" fill="fur-s"/>
+      <path d="M120 152 C94 152 80 182 80 210 C80 238 98 256 120 256 C142 256 160 238 160 210 C160 182 146 152 120 152Z" fill="cream"/>
+      <path d="M190 182 C181 181 174 184 170 188 C176 190 183 190 191 188Z M192 232 C184 231 177 234 173 237 C179 239 186 239 193 237Z M50 182 C59 181 66 184 70 188 C64 190 57 190 49 188Z" fill="fur-d"/>
+      <path d="M64 117 C92 134 148 134 176 117 L178 127 C150 146 90 146 62 127Z" fill="acc" stroke="ink"/>
+      <path d="M40 200 C76 222 164 222 200 200" fill="none" stroke="ink" stroke-width="11"/>
+      <path d="M40 200 C76 222 164 222 200 200" fill="none" stroke="dark" stroke-width="6.2"/>
+    </g>
+    <path d="M120 118 C88 118 64 140 56 168 C46 196 46 222 58 240 C70 256 96 262 120 262 C144 262 170 256 182 240 C194 222 194 196 184 168 C176 140 152 118 120 118Z" fill="none" stroke="ink"/>
+    <!-- бананка -->
+    <path d="M90 206 C90 198 150 198 150 206 L153 230 C153 242 87 242 87 230Z" fill="acc" stroke="ink"/>
+    <path d="M93 214 C108 210 132 210 147 214" fill="none" stroke="ink" stroke-width="1.6" stroke-dasharray="2 2.5"/>
+    <path d="M95 203.5 C110 201 130 201 145 203.5" fill="none" stroke="paper" stroke-width="1.6" opacity=".5"/>
+    <path d="M131 213 V220" stroke="ink" stroke-width="1.4"/>
+    <path d="M122 226 C125 219.5 135 219.5 138 226 C135 232.5 125 232.5 122 226Z M138 226 L145 221 L145 231Z" fill="gold" stroke="ink" stroke-width="1.5"/>
+    <circle cx="126.5" cy="225" r="1.2" fill="ink"/>
+    <ellipse cx="88" cy="258" rx="20" ry="9.5" fill="fur" stroke="ink"/><ellipse cx="152" cy="258" rx="20" ry="9.5" fill="fur" stroke="ink"/>
+    <path d="M84 256 V262 M92 256 V262 M148 256 V262 M156 256 V262" stroke="ink" stroke-width="1.6"/>
+  </g>
+<g id="car-side">
+  <ellipse cx="120" cy="121" rx="112" ry="6" fill="ink" opacity=".12"/>
+  <path d="M12 88 C12 74 20 68 34 66 L64 62 C78 42 96 32 122 32 L170 32 C186 32 196 40 204 56 L214 72 C220 74 224 80 224 88 L224 94 C224 99 220 102 214 102 L20 102 C15 102 12 98 12 94Z" fill="acc" stroke="ink"/>
+  <path d="M76 62 C88 47 102 41 122 41 L164 41 C176 41 184 47 190 58 L193 62Z" fill="acc-l" stroke="ink"/>
+  <path d="M110 41 L96 62 M118 41 L106 62" stroke="paper" stroke-width="3" opacity=".7"/>
+  <path d="M136 41 V62" stroke="ink" stroke-width="4"/>
+  <path d="M28 76 H212" stroke="paper" stroke-width="3" opacity=".35"/>
+  <path d="M136 62 V100" stroke="ink" stroke-width="1.4"/>
+  <path d="M116 70 H126 M152 70 H162" stroke="ink" stroke-width="2.6"/>
+  <path d="M13 80 C16 75 22 73 30 74 L30 81 L13 84Z" fill="gold" stroke="ink" stroke-width="1.6"/>
+  <path d="M219 70 L224 80 L224 84 L217 84Z" fill="nose" stroke="ink" stroke-width="1.6"/>
+  <path d="M32 102 A24 24 0 0 1 80 102Z M158 102 A24 24 0 0 1 206 102Z" fill="dark" stroke="ink"/>
+  <circle cx="56" cy="104" r="18" fill="dark" stroke="ink"/><circle cx="182" cy="104" r="18" fill="dark" stroke="ink"/>
+  <circle cx="56" cy="104" r="8" fill="mute" stroke="ink" stroke-width="1.8"/><circle cx="182" cy="104" r="8" fill="mute" stroke="ink" stroke-width="1.8"/>
+  <circle cx="56" cy="104" r="2.4" fill="ink"/><circle cx="182" cy="104" r="2.4" fill="ink"/>
+</g><g id="cat-wave"><use href="#body"/>
+  <limb d="M78 150 C66 164 62 178 64 194" w="26" fill="fur"/><path d="M60 200 V205 M68 200 V205" stroke="ink" stroke-width="1.6"/>
+  <use href="#charm-paw" transform="translate(120 152)"/>
+  <use href="#head"/><use href="#eyes-open"/><use href="#lids"/><use href="#mouth-smile"/>
+  <limb d="M162 148 C174 136 184 126 194 114" w="22" fill="fur"/>
+  <circle cx="198" cy="106" r="14" fill="fur" stroke="ink"/>
+  <path d="M192 110 C192 105 204 105 204 110 C204 114 200 115 198 114 C196 115 192 114 192 110Z" fill="nose"/>
+  <circle cx="190.5" cy="101" r="2.6" fill="nose"/><circle cx="197" cy="97" r="2.6" fill="nose"/><circle cx="204" cy="99" r="2.6" fill="nose"/></g></defs><rect x="10" y="10" width="460" height="340" rx="28" fill="tint"/>
+<circle cx="380" cy="150" r="96" fill="acc-l" opacity=".7"/>
+<path d="M10 300 H470 V322 A28 28 0 0 1 442 350 H38 A28 28 0 0 1 10 322Z" fill="acc-l"/>
+<path d="M10 300 H470" stroke="ink"/>
+<path d="M70 62 Q70 70 78 70 Q70 70 70 78 Q70 70 62 70 Q70 70 70 62Z" fill="acc-d"/><path d="M250 55 Q250 60 255 60 Q250 60 250 65 Q250 60 245 60 Q250 60 250 55Z" fill="acc-d"/><circle cx="120" cy="40" r="3" fill="acc-d"/>
+<use href="#car-side" transform="translate(20 134) scale(1.38)" stroke-width="1.74"/>
+<ellipse cx="398" cy="302" rx="56" ry="7" fill="ink" opacity=".12"/>
+<use href="#cat-wave" transform="translate(318 134) scale(.63)" stroke-width="3.8"/></svg>

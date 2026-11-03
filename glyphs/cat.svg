@@ -1,0 +1,5 @@
+<svg viewBox="0 0 48 48">
+  <path d="M33 43 C42 43 44 35 39 31" fill="none" stroke="ink" stroke-width="3"/>
+  <path d="M20 25 C18 21 18 16 19 9 L24 14 Q27 13 30 14 L35 9 C36 16 36 21 34 25 L33 28 C36 33 36 39 34 44 L16 44 C14 38 15 31 21 27Z" fill="ink"/>
+  <ellipse cx="24" cy="20" rx="1.6" ry="2" fill="paper"/><ellipse cx="30" cy="20" rx="1.6" ry="2" fill="paper"/>
+</svg>
