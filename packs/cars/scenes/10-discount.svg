@@ -1,0 +1,6 @@
+<svg><!-- Скидка: держит табличку «%» -->
+<bg windows="3" x="40"/>
+<part id="car-side" x="-10" y="152" s="1.38"/>
+<ellipse cx="374" cy="320" rx="62" ry="7" fill="ink" opacity=".12"/>
+<part id="cat-sign" x="290" y="133" s=".7" face="happy"/>
+</svg>

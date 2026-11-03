@@ -1,0 +1,9 @@
+<svg><!-- Сравнение: машины на весах, кот показывает на перевесившую -->
+<bg windows="3" x="170"/>
+<clipPath id="below-paw"><rect y="242" width="480" height="73"/></clipPath>
+<part id="scales" x="170" y="120"/>
+<ellipse cx="94" cy="320" rx="62" ry="7" fill="ink" opacity=".12"/>
+<part id="cat-point" x="10" y="133" s=".7"/>
+<g clip-path="url(#below-paw)"><part id="scales" x="170" y="120"/></g>
+<part id="star-badge" x="182" y="184"/>
+</svg>

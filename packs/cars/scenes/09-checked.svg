@@ -1,0 +1,9 @@
+<svg><!-- Проверено: кот осматривает колесо через лупу -->
+<bg windows="2" x="14"/>
+<part id="car-side" x="16" y="152" s="1.38"/>
+<part id="check-badge" x="290" y="172"/>
+<ellipse cx="392" cy="320" rx="62" ry="7" fill="ink" opacity=".12"/>
+<!-- увеличенный диск колеса внутри линзы (центр линзы 272,285, r≈21) -->
+<g transform="translate(272 285)"><circle r="20" fill="dark"/><circle r="13" fill="mute" stroke="ink"/><circle r="4" fill="ink"/><circle cx="0" cy="-8" r="1.6" fill="ink"/><circle cx="8" cy="0" r="1.6" fill="ink"/><circle cx="0" cy="8" r="1.6" fill="ink"/><circle cx="-8" cy="0" r="1.6" fill="ink"/></g>
+<part id="cat-magnify" x="476" y="133" s=".7" flip="1"/>
+</svg>

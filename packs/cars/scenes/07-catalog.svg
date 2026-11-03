@@ -1,0 +1,8 @@
+<svg><!-- Каталог: показывает лапой на экран с карточками машин -->
+<bg windows="2" x="290"/>
+<clipPath id="below-paw"><rect y="242" width="480" height="73"/></clipPath>
+<part id="screen" x="196" y="128"/>
+<ellipse cx="148" cy="320" rx="62" ry="7" fill="ink" opacity=".12"/>
+<part id="cat-point" x="64" y="133" s=".7"/>
+<g clip-path="url(#below-paw)"><part id="screen" x="196" y="128"/></g>
+</svg>
