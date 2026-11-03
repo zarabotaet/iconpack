@@ -112,4 +112,28 @@
     <ellipse cx="30" cy="108" rx="8" ry="26" transform="rotate(-18 30 108)" fill="none" stroke="dark" stroke-width="5.5"/>
     <limb d="M86 150 C66 132 50 112 40 102" w="22" fill="fur"/><use href="#paw-fist" transform="translate(37 99)"/>
     <limb d="M158 146 C176 124 190 100 198 82" w="22" fill="fur"/><use href="#paw-palm" transform="translate(201 72) rotate(10)"/></g>
+
+  <!-- лапа под ошейником, другая лапа облокотилась (на сейф) -->
+  <g id="cat-collar"><use href="#body"/>
+    <limb d="M74 164 C84 162 92 156 98 148" w="24" fill="fur"/>
+    <g clip-path="url(#bodyclip)"><path d="M64 117 C92 135 148 135 176 117 L178 127 C150 147 90 147 62 127Z" fill="acc" stroke="ink"/></g><use href="#charm-paw" transform="translate(124 154)"/>
+    <use href="#paw-fist" transform="translate(100 140) rotate(200)"/>
+    <use href="#head"/>
+    <limb d="M158 152 C176 146 192 140 206 138" w="24" fill="fur"/><use href="#paw-fist" transform="translate(210 136)"/></g>
+
+  <!-- роется в бананке и достаёт купюры -->
+  <g id="cat-cash"><use href="#body"/><use href="#charm-paw" transform="translate(120 152)"/>
+    <path d="M92 210 C108 201 132 201 148 210 C132 215 108 215 92 210Z" fill="dark" stroke="ink"/>
+    <limb d="M76 154 C80 176 92 196 104 210" w="24" fill="fur"/>
+    <path d="M90 210 C108 206 132 206 150 210 L153 230 C153 242 87 242 87 230Z" fill="acc" stroke="ink"/>
+    <path d="M122 223 C125 216.5 135 216.5 138 223 C135 229.5 125 229.5 122 223Z M138 223 L145 218 L145 228Z" fill="gold" stroke="ink" stroke-width="1.5"/>
+    <use href="#head"/>
+    <limb d="M160 150 C174 134 186 116 194 102" w="22" fill="fur"/>
+    <g stroke-width="1.4"><use href="#bill" transform="translate(206 66) rotate(-32) scale(1.8)"/><use href="#bill" transform="translate(218 74) rotate(-6) scale(1.8)"/><use href="#bill" transform="translate(222 90) rotate(20) scale(1.8)"/></g>
+    <use href="#paw-fist" transform="translate(197 96)"/></g>
+
+  <!-- тянется лапой вперёд (жмёт кнопку, показывает) -->
+  <g id="cat-point"><use href="#body"/><use href="#arm-down"/><use href="#charm-paw" transform="translate(120 152)"/>
+    <use href="#head"/>
+    <limb d="M158 150 C182 146 202 142 222 140" w="22" fill="fur"/><use href="#paw-fist" transform="translate(226 139) rotate(-90)"/></g>
 </svg>

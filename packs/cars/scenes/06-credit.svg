@@ -1,0 +1,9 @@
+<svg><!-- Кредит: жмёт кнопку огромного калькулятора -->
+<bg windows="2" x="296"/>
+<clipPath id="below-paw"><rect y="242" width="480" height="73"/></clipPath>
+<part id="calculator" x="219" y="108" s="1.25"/>
+<ellipse cx="176" cy="320" rx="62" ry="7" fill="ink" opacity=".12"/>
+<part id="cat-point" x="92" y="133" s=".7" face="happy"/>
+<g clip-path="url(#below-paw)"><part id="calculator" x="219" y="108" s="1.25"/></g>
+<path d="M204 100 Q204 110 214 110 Q204 110 204 120 Q204 110 194 110 Q204 110 204 100Z" fill="acc-d"/>
+</svg>
